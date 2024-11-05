@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS cabinet(
+    uid UUID REFERENCES people (uid) ON DELETE CASCADE
+);
